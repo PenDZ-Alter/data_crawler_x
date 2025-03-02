@@ -51,7 +51,6 @@ class Crawler():
                     "user": tweet.author_id,
                     "created_at": str(tweet.created_at)
                 })
-            time.sleep(5)
         return tweets_data
 
 
