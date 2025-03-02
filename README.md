@@ -9,17 +9,17 @@ A Simple crawler using python and tweepy.
 
 ## How to use?
 1. Install the required libraries by running
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 2. Place your `API` and `ACCESS` token into `.env.example` and rename it into `.env`
-> You can get the token by creating an app on the Twitter Developer Dashboard. Refer to [this platform](https://developer.x.com) for more information.
+    > You can get the token by creating an app on the Twitter Developer Dashboard. Refer to [this platform](https://developer.x.com) for more information.
 
 3. Run the script by running
-```bash
-python main.py
-```
-Then, input keyword and data count.
+    ```bash
+    python main.py
+    ```
+    Then, input keyword and data count.
 
 4. The file will be saved as `CSV` and `JSON` files.
